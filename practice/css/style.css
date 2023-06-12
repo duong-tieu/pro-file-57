@@ -1,0 +1,85 @@
+:root {
+  --primary-color: #00adee;
+  --shade-1: #33b5f3;
+  --shade-2: #66bcf8;
+  --shade-3: #99c4fd;
+  --shade-4: #cce2ff;
+  --shade-7: #8dd7f7;
+  --shade-9: #c6e9fa;
+}
+
+body {
+  background-color: var(--shade-4);
+  color: #000000; /* Màu chữ mặc định là màu đen */
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: var(--primary-color);
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff; /* Màu chữ trắng trong header */
+}
+
+nav {
+  background-color: var(--shade-1);
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #ffffff; /* Màu chữ trắng trong menu */
+  text-decoration: none;
+}
+
+.on-sale-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.on-sale-preview .background {
+  background-color: var(--shade-1);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.on-sale-preview img {
+  width: 100px;
+  height: 100px;
+}
+
+.content {
+  background-color: var(--shade-7);
+  padding: 20px;
+}
+
+.content p {
+  color: #000000; /* Màu chữ đen trong nội dung */
+}
+
+footer {
+  background-color: var(--shade-9);
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  color: #000000; /* Màu chữ đen trong footer */
+}
